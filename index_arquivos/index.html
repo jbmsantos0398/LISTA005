@@ -37,39 +37,15 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_width
 <!--##############################################################################-->
 <!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
-<!DOCTYPE html><html><head>
-<meta name="viewport" content="width=device-width, initial-scale=1"><style>
-body {margin:0;}
-.navbar {
-  overflow: hidden;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-}
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-.main {
-  padding: 0px;
-  margin-top: 30px;
-  height: 500px; /* Used in this example to enable scrolling */
-}
-</style></head><body><div class="navbar"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="PESQUISA NESSA PÁGINA" title="PESQUISA NESSA PÁGINA"></div><div class="main"><!DOCTYPE html><html><head>
-<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 * {
   box-sizing: border-box;
 }
+
 #myInput {
   background-image: url('/css/searchicon.png');
   background-position: 10px 12px;
@@ -77,309 +53,51 @@ body {margin:0;}
   width: 100%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
-  border: 6px solid red;
+  border: 1px solid #ddd;
   margin-bottom: 12px;
 }
+
 #myUL {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 #myUL li a {
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   margin-top: -1px; /* Prevent double borders */
-  background-color: #ffffff;
+  background-color: #f6f6f6;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  color: blue;
+  color: black;
   display: block
 }
+
 #myUL li a:hover:not(.header) {
-  background-color: #ddd;
+  background-color: #eee;
 }
-</style></head><body><ul id="myUL"><BR/><BR/>
-<!---------------------------------------------------------------------------------->
-<!------------------------------------ IMAGEM  400---------------------------------->
-<!---------------------------------------------------------------------------------->
-<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
-img {
-  max-width: 100%;
-  height: auto;
-}
-</style></head><body>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------FAIXA AZUL-- _blank --- _self ------------------------------->
-<a href="index_arquivos/SITESINTERNOS/1 - Copia.html" target="_self">
-<div height="100" style="background-color: #000000;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>SITES INTERNOS</FONT></x></div></a>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!----------------------------- _self ------ _blank 
-<CENTER><FONT SIZE=+3><B>Fortaleza, 21:57 14/08/2024</B></FONT><br/>
-<FONT SIZE=+2><B>Bem vindo</B></FONT><br/></CENTER>
-<center>
-<b id='piscando' style="transition-duration:0.5s">
-<FONT SIZE=+2><b>CONTÉM CONTEÚDO ADULTO, </b></FONT>
-</b><script>
-var teste = 0;
- setInterval(piscar, 500);
- function piscar(){
-if(teste<1){
-teste++;
-document.getElementById('piscando').style.opacity = '1';
-} else{
-teste = 0; 
-document.getElementById('piscando').style.opacity = '0';
-}};
-</script>
+</style>
+</head>
+<body>
 
-<FONT SIZE=+2><b><FONT COLOR="RED">PROIBIDO PARA MENORES DE 18 ANOS</b></FONT>
-</center><HR/>
-<center>BUSCA LINK</center>
-<!-----------------------RELOGIO NOVO RELÓGIO BOM------------------------>
-<CENTER><html><head><title></title></head><body><SCRIPT LANGUAGE="JAVASCRIPT">
-<!--
-var now = new Date();
-var mName = now.getMonth() +1 ;
-var dName = now.getDay() +1;
-var dayNr = now.getDate();
-var yearNr=now.getYear();
-if(dName==1) {Day = "Domingo";}
-if(dName==2) {Day = "Segunda-feira";}
-if(dName==3) {Day = "Terça-feira";}
-if(dName==4) {Day = "Quarta-feira";}
-if(dName==5) {Day = "Quinta-feira";}
-if(dName==6) {Day = "Sexta-feira";}
-if(dName==7) {Day = "Sábado";}
-if(mName==1){Month = "Janeiro";}
-if(mName==2){Month = "Fevereiro";}
-if(mName==3){Month = "Março";}
-if(mName==4){Month = "Abril";}
-if(mName==5){Month = "Maio";}
-if(mName==6){Month = "Junho";}
-if(mName==7){Month = "Julho";}
-if(mName==8){Month = "Agosto";}
-if(mName==9){Month = "Setembro";}
-if(mName==10){Month = "Outubro";}
-if(mName==11){Month = "Novembro";}
-if(mName==12){Month = "Dezembro";}
-if(yearNr < 2000) {Year = 1900 + yearNr;}
-else {Year = yearNr;}
-var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
-document.write('  '+todaysDate);
-//-->
-</SCRIPT><u><mark><b>
-<SPAN ID="Clock">00:00:00</SPAN>
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-  var Elem = document.getElementById("Clock");
-  function Horario(){ 
-    var Hoje = new Date(); 
-    var Horas = Hoje.getHours(); 
-    if(Horas < 10){ 
-      Horas = "0"+Horas; 
-    } 
-    var Minutos = Hoje.getMinutes(); 
-    if(Minutos < 10){ 
-      Minutos = "0"+Minutos; 
-    } 
-    var Segundos = Hoje.getSeconds(); 
-    if(Segundos < 10){ 
-      Segundos = "0"+Segundos; 
-    } 
-    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
-    } 
-    window.setInterval("Horario()",1000);
-//-->
-</SCRIPT></body></html></b></mark></u></CENTER>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------- _blank --- _self ----------------------->
-<!---------------------------------------------------------------------------------->
-<!--##############################################################################-->
-<!--##############################################################################-->
-<!--###############################  🔴AUDIOS🔴  ################################-->
-<!--##############################################################################-->
-<!--##############################################################################-->
-<!---------------------------------------------------------------------------------->
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/TODOSJUNTOS/
-" target="_blank"><b>
-TODOSJUNTOS
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/SANTOS2/
-" target="_blank"><b>
-SANTOS2
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/INFINITO/
-" target="_blank"><b>
-INFINITO
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/YOU/
-" target="_blank"><b>
-YOU
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/LINKSPARAAPPESITES/
-" target="_blank"><b>
-LINKSPARAAPPESITES
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-<li><a href="
-https://jbmsantos0398.github.io/MINHASBUSCAS/
-" target="_blank"><b>
-MINHASBUSCAS
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
+<h2>My Phonebook</h2>
 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
 
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
 
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
 
-
-
-<!-----------------------------------------
-<li><a href="
-LINK🔴
-" target="_blank"><b>
-NOME🔴
-</b>(<i><FONT COLOR="RED">
-santos0398
-</FONT></i>).</a></li>
-<!------------------------------------------------------------------>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<br/><br/><br/>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-</ul><script>
+<script>
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
@@ -396,7 +114,11 @@ function myFunction() {
         }
     }
 }
-</script></body></html>
+</script>
+
+</body>
+</html>
+
 <!---------------------------------------------------------------------------------->
 <BR/><BR/><BR/>
 <!---------------------------------------------------------------------------------->
